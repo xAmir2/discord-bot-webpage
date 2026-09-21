@@ -5,9 +5,11 @@ import { Footer } from "./Footer";
 export function Homepage() {
   return (
     <>
-      <Navbar />
-      <MainContent />
-      <Footer />
+      <div className="h-screen w-full bg-gray-700">
+        <Navbar />
+        <MainContent />
+        <Footer />
+      </div>
     </>
   );
 }
