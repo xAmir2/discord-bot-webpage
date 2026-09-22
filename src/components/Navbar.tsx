@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,12 +16,12 @@ export function Navbar() {
         </div>
 
         <div className="me-20 hidden space-x-8 text-white md:flex">
-          <a href="#" className="hover:text-gray-300">
+          <Link to="/" className="hover:text-gray-300">
             Home
-          </a>
-          <a href="#" className="hover:text-gray-300">
+          </Link>
+          <Link to="/documentation" className="hover:text-gray-300">
             Documentation
-          </a>
+          </Link>
         </div>
 
         <button
