@@ -11,10 +11,10 @@ export function MainContent() {
         <p className="mx-auto mt-4 max-w-3xl text-lg leading-relaxed text-gray-300">
           The name <span className="font-semibold text-white">Verba</span> comes
           from Latin, where it means
-          <span className="font-semibold text-white">"words"</span>. Since words
-          are at the heart of communication, it felt like the right name for a
-          project built around making communication between different languages
-          easier.
+          <span className="font-semibold text-white"> "words"</span>. Since
+          words are at the heart of communication, it felt like the right name
+          for a project built around making communication between different
+          languages easier.
         </p>
         <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-gray-300">
           Nowadays, it's easy to find a Discord bot that can translate messages
@@ -27,7 +27,7 @@ export function MainContent() {
           That's why I decided to build
           <span className="font-semibold text-white"> Verba</span> myself: a
           Discord translation bot that I can run whenever I need it, without
-          having to pay for a subscription. The idea is simple — you provide
+          having to pay for a subscription. The idea is simple: you provide
           your own PC, install the required software, follow the setup guide,
           and you have your own translation bot ready to use.
         </p>
